@@ -1,0 +1,35 @@
+.quoraBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quoraBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.quoraBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.quoraBox__info > h5 {
+  color: #2a3856;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.quoraBox__quora {
+  display: flex;
+  margin-top: 8px;
+}
+
+.quoraBox__quora > p {
+  color: gray;
+  font-weight: bold;
+  font-size: large;
+}
